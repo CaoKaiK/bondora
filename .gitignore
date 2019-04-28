@@ -1,18 +1,12 @@
-# log files
-
+# ignore log files
 *.log
 
+# ignore python cache
+__pycache__/
 
+# ignore any tmp picture
+*.png
 
-# pictures
-*
-.png
-
-
-
-# data folder
-
+# ignore data folder
 data/
 
-# pycache
-__pycache__/
