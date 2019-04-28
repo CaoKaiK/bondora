@@ -1,0 +1,24 @@
+2019-04-20 21:00:52,053 - DEBUG - log/custom_logger - Logging started on: 2019-04-20 21:00:52
+2019-04-20 21:00:52,054 - DEBUG - log/custom_logger - ################################
+2019-04-20 21:00:54,526 - INFO - dataprep/load_data - Loaded LoanData
+2019-04-20 21:00:54,823 - INFO - dataprep/clean_data - 10.91 % time filtered
+2019-04-20 21:00:55,007 - INFO - dataprep/clean_data - 3.19 % NaN filtered
+2019-04-20 21:00:55,181 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-20 21:00:55,188 - INFO - dataprep/clean_data - 45.10 % of credits defaulted
+2019-04-20 21:00:55,207 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-20 21:00:57,756 - INFO - rndforest/train_forest - Shuffle: 1 of 10 | AUC: 0.744
+2019-04-20 21:01:00,151 - INFO - rndforest/train_forest - Shuffle: 2 of 10 | AUC: 0.740
+2019-04-20 21:01:02,659 - INFO - rndforest/train_forest - Shuffle: 3 of 10 | AUC: 0.739
+2019-04-20 21:01:05,051 - INFO - rndforest/train_forest - Shuffle: 4 of 10 | AUC: 0.729
+2019-04-20 21:01:07,449 - INFO - rndforest/train_forest - Shuffle: 5 of 10 | AUC: 0.743
+2019-04-20 21:01:09,841 - INFO - rndforest/train_forest - Shuffle: 6 of 10 | AUC: 0.740
+2019-04-20 21:01:12,233 - INFO - rndforest/train_forest - Shuffle: 7 of 10 | AUC: 0.737
+2019-04-20 21:01:14,634 - INFO - rndforest/train_forest - Shuffle: 8 of 10 | AUC: 0.722
+2019-04-20 21:01:17,030 - INFO - rndforest/train_forest - Shuffle: 9 of 10 | AUC: 0.744
+2019-04-20 21:01:19,437 - INFO - rndforest/train_forest - Shuffle: 10 of 10 | AUC: 0.743
+2019-04-20 21:08:53,885 - INFO - <ipython-input-11-69ba40e37fdf>/<module> - Key_Name:"n_estimators", Key_Value:"122"
+2019-04-20 21:08:53,887 - INFO - <ipython-input-11-69ba40e37fdf>/<module> - Key_Name:"min_samples_split", Key_Value:"5000"
+2019-04-20 21:08:53,887 - INFO - <ipython-input-11-69ba40e37fdf>/<module> - Key_Name:"min_samples_leaf", Key_Value:"2500"
+2019-04-20 21:08:53,888 - INFO - <ipython-input-11-69ba40e37fdf>/<module> - Key_Name:"max_features", Key_Value:"sqrt"
+2019-04-20 21:08:53,888 - INFO - <ipython-input-11-69ba40e37fdf>/<module> - Key_Name:"max_depth", Key_Value:"42"
+2019-04-20 21:08:53,889 - INFO - <ipython-input-11-69ba40e37fdf>/<module> - Key_Name:"bootstrap", Key_Value:"False"

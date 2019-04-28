@@ -1,0 +1,65 @@
+2019-04-22 09:26:40,081 - DEBUG - log/custom_logger - Logging started on: 2019-04-22 09:26:40
+2019-04-22 09:26:40,081 - DEBUG - log/custom_logger - ################################
+2019-04-22 09:26:40,081 - INFO - api/save_publicdataset - Loandataset already exists for today
+2019-04-22 09:26:42,688 - INFO - dataprep/load_data - Loaded Data: 85.8k credits
+2019-04-22 09:26:42,949 - INFO - dataprep/clean_data - 10.91 % time filtered
+2019-04-22 09:26:42,993 - INFO - dataprep/clean_data - 3.08 % NaN filtered
+2019-04-22 09:26:43,056 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-22 09:26:43,064 - INFO - dataprep/clean_data - 45.13 % of credits defaulted
+2019-04-22 09:26:43,076 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-22 09:26:43,103 - INFO - rndforest/train_forest - Train Random Forest with:
+2019-04-22 09:26:43,104 - INFO - rndforest/train_forest - No of Trees: 122
+2019-04-22 09:26:43,105 - INFO - rndforest/train_forest - Max Depth: 30
+2019-04-22 09:26:43,106 - INFO - rndforest/train_forest - Min Leaf Size: 2500
+2019-04-22 09:26:43,107 - INFO - rndforest/train_forest - Min Sample Split: 1000
+2019-04-22 09:26:43,108 - INFO - rndforest/train_forest - Crit: gini
+2019-04-22 09:26:45,044 - INFO - rndforest/train_forest - Shuffle: 1 of 10 | AUC: 0.722
+2019-04-22 09:26:46,865 - INFO - rndforest/train_forest - Shuffle: 2 of 10 | AUC: 0.730
+2019-04-22 09:26:48,686 - INFO - rndforest/train_forest - Shuffle: 3 of 10 | AUC: 0.740
+2019-04-22 09:26:50,509 - INFO - rndforest/train_forest - Shuffle: 4 of 10 | AUC: 0.735
+2019-04-22 09:26:52,329 - INFO - rndforest/train_forest - Shuffle: 5 of 10 | AUC: 0.735
+2019-04-22 09:26:54,152 - INFO - rndforest/train_forest - Shuffle: 6 of 10 | AUC: 0.732
+2019-04-22 09:26:55,973 - INFO - rndforest/train_forest - Shuffle: 7 of 10 | AUC: 0.731
+2019-04-22 09:26:57,895 - INFO - rndforest/train_forest - Shuffle: 8 of 10 | AUC: 0.733
+2019-04-22 09:26:59,822 - INFO - rndforest/train_forest - Shuffle: 9 of 10 | AUC: 0.742
+2019-04-22 09:27:01,647 - INFO - rndforest/train_forest - Shuffle: 10 of 10 | AUC: 0.726
+2019-04-22 09:27:01,649 - INFO - rndforest/train_forest - Finished | Mean AUC: 0.73 | Stdev: 0.0060
+2019-04-22 09:27:02,005 - INFO - rndforest/evaluate_default_prob - 2 of 15 bins were removed
+2019-04-22 09:27:02,054 - INFO - rndforest/evaluate_default_prob - Fit succeded | R2: 0.993
+2019-04-22 09:27:02,057 - INFO - api/save_investments - Loandataset already exists for today
+2019-04-22 09:27:02,134 - INFO - dataprep/load_data - Loaded Data: 2.1k credits
+2019-04-22 09:27:02,154 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-22 09:27:02,155 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-22 09:27:02,269 - DEBUG - api/get_secondarymarket - Requested for user: Niklas
+2019-04-22 09:27:02,270 - DEBUG - api/get_secondarymarket - Show Items: True
+2019-04-22 09:27:03,223 - DEBUG - api/get_secondarymarket - Status Code: 200 - Success
+2019-04-22 09:27:03,224 - INFO - api/get_secondarymarket - Received Page 1 of 1
+2019-04-22 09:27:03,231 - DEBUG - api/post_cancelitem - Requested for user: Niklas
+2019-04-22 09:27:03,736 - WARNING - api/post_cancelitem - Status Code: 202 - Failed
+2019-04-22 09:27:03,789 - DEBUG - api/post_sellitems - Requested for user: Niklas
+2019-04-22 09:27:04,236 - WARNING - api/post_sellitems - Status Code: 409 - Failed
+2019-04-22 09:28:49,876 - DEBUG - api/get_secondarymarket - Requested for user: Niklas
+2019-04-22 09:28:49,876 - DEBUG - api/get_secondarymarket - Show Items: True
+2019-04-22 09:28:50,701 - DEBUG - api/get_secondarymarket - Status Code: 200 - Success
+2019-04-22 09:28:50,701 - INFO - api/get_secondarymarket - Received Page 1 of 1
+2019-04-22 09:29:13,938 - DEBUG - api/post_cancelitem - Requested for user: Niklas
+2019-04-22 09:29:37,429 - DEBUG - api/post_cancelitem - Requested for user: Niklas
+2019-04-22 09:29:37,773 - WARNING - api/post_cancelitem - Status Code: 409 - Failed
+2019-04-22 09:29:55,833 - DEBUG - api/post_sellitems - Requested for user: Niklas
+2019-04-22 09:29:56,033 - WARNING - api/post_sellitems - Status Code: 409 - Failed
+2019-04-22 09:30:45,429 - DEBUG - api/get_secondarymarket - Requested for user: Niklas
+2019-04-22 09:30:45,429 - DEBUG - api/get_secondarymarket - Show Items: True
+2019-04-22 09:30:46,338 - DEBUG - api/get_secondarymarket - Status Code: 200 - Success
+2019-04-22 09:30:46,338 - INFO - api/get_secondarymarket - Received Page 1 of 1
+2019-04-22 09:31:58,039 - DEBUG - api/get_secondarymarket - Requested for user: Niklas
+2019-04-22 09:31:58,039 - DEBUG - api/get_secondarymarket - Show Items: True
+2019-04-22 09:31:59,612 - DEBUG - api/get_secondarymarket - Status Code: 200 - Success
+2019-04-22 09:31:59,612 - INFO - api/get_secondarymarket - Received Page 1 of 1
+2019-04-22 09:33:23,776 - DEBUG - api/get_secondarymarket - Requested for user: Niklas
+2019-04-22 09:33:23,776 - DEBUG - api/get_secondarymarket - Show Items: True
+2019-04-22 09:33:24,338 - DEBUG - api/get_secondarymarket - Status Code: 200 - Success
+2019-04-22 09:33:24,338 - INFO - api/get_secondarymarket - Received Page 1 of 0
+2019-04-22 09:35:24,043 - DEBUG - api/get_secondarymarket - Requested for user: Niklas
+2019-04-22 09:35:24,044 - DEBUG - api/get_secondarymarket - Show Items: True
+2019-04-22 09:35:24,750 - DEBUG - api/get_secondarymarket - Status Code: 200 - Success
+2019-04-22 09:35:24,750 - INFO - api/get_secondarymarket - Received Page 1 of 0

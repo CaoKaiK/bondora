@@ -1,0 +1,28 @@
+2019-04-24 12:13:22,693 - DEBUG - log/custom_logger - Logging started on: 2019-04-24 12:13:22
+2019-04-24 12:13:22,693 - DEBUG - log/custom_logger - ################################
+2019-04-24 12:13:22,693 - INFO - api/save_publicdataset - Loandataset already exists for today
+2019-04-24 12:13:25,260 - INFO - dataprep/load_data - Loaded Data: 86.1k credits
+2019-04-24 12:13:25,550 - INFO - dataprep/clean_data - 10.93 % time filtered
+2019-04-24 12:13:25,607 - INFO - dataprep/clean_data - 3.06 % NaN filtered
+2019-04-24 12:13:25,670 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-24 12:13:25,683 - INFO - dataprep/clean_data - 45.01 % of credits defaulted
+2019-04-24 12:13:25,694 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-24 12:13:25,720 - INFO - rndforest/train_forest - Train Random Forest with:
+2019-04-24 12:13:25,721 - INFO - rndforest/train_forest - No of Trees: 122
+2019-04-24 12:13:25,721 - INFO - rndforest/train_forest - Max Depth: 30
+2019-04-24 12:13:25,722 - INFO - rndforest/train_forest - Min Leaf Size: 2500
+2019-04-24 12:13:25,723 - INFO - rndforest/train_forest - Min Sample Split: 1000
+2019-04-24 12:13:25,723 - INFO - rndforest/train_forest - Crit: gini
+2019-04-24 12:13:27,696 - INFO - rndforest/train_forest - Shuffle: 1 of 10 | AUC: 0.731
+2019-04-24 12:13:29,622 - INFO - rndforest/train_forest - Shuffle: 2 of 10 | AUC: 0.738
+2019-04-24 12:13:31,649 - INFO - rndforest/train_forest - Shuffle: 3 of 10 | AUC: 0.735
+2019-04-24 12:13:33,897 - INFO - rndforest/train_forest - Shuffle: 4 of 10 | AUC: 0.732
+2019-04-24 12:13:36,168 - INFO - rndforest/train_forest - Shuffle: 5 of 10 | AUC: 0.738
+2019-04-24 12:13:38,093 - INFO - rndforest/train_forest - Shuffle: 6 of 10 | AUC: 0.727
+2019-04-24 12:13:40,125 - INFO - rndforest/train_forest - Shuffle: 7 of 10 | AUC: 0.736
+2019-04-24 12:13:42,277 - INFO - rndforest/train_forest - Shuffle: 8 of 10 | AUC: 0.722
+2019-04-24 12:13:44,201 - INFO - rndforest/train_forest - Shuffle: 9 of 10 | AUC: 0.737
+2019-04-24 12:13:46,337 - INFO - rndforest/train_forest - Shuffle: 10 of 10 | AUC: 0.738
+2019-04-24 12:13:46,340 - INFO - rndforest/train_forest - Finished | Mean AUC: 0.73 | Stdev: 0.0055
+2019-04-24 12:13:46,975 - INFO - rndforest/evaluate_default_prob - 2 of 15 bins were removed
+2019-04-24 12:13:47,030 - INFO - rndforest/evaluate_default_prob - Fit succeded | R2: 0.991

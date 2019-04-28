@@ -1,0 +1,100 @@
+2019-04-24 16:06:38,329 - DEBUG - log/custom_logger - Logging started on: 2019-04-24 16:06:38
+2019-04-24 16:06:38,329 - DEBUG - log/custom_logger - ################################
+2019-04-24 16:06:38,345 - INFO - api/save_publicdataset - Loandataset already exists for today
+2019-04-24 16:06:40,967 - INFO - dataprep/load_data - Loaded Data: 86.1k credits
+2019-04-24 16:06:41,249 - INFO - dataprep/clean_data - 10.89 % time filtered
+2019-04-24 16:06:41,296 - INFO - dataprep/clean_data - 3.06 % NaN filtered
+2019-04-24 16:06:41,359 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-24 16:06:41,374 - INFO - dataprep/clean_data - 44.99 % of credits defaulted
+2019-04-24 16:06:41,390 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-24 16:06:41,422 - INFO - rndforest/train_forest - Train Random Forest with:
+2019-04-24 16:06:41,422 - INFO - rndforest/train_forest - No of Trees: 122
+2019-04-24 16:06:41,422 - INFO - rndforest/train_forest - Max Depth: 30
+2019-04-24 16:06:41,422 - INFO - rndforest/train_forest - Min Leaf Size: 2500
+2019-04-24 16:06:41,422 - INFO - rndforest/train_forest - Min Sample Split: 1000
+2019-04-24 16:06:41,422 - INFO - rndforest/train_forest - Crit: gini
+2019-04-24 16:06:43,382 - INFO - rndforest/train_forest - Shuffle: 1 of 10 | AUC: 0.727
+2019-04-24 16:06:45,389 - INFO - rndforest/train_forest - Shuffle: 2 of 10 | AUC: 0.735
+2019-04-24 16:06:47,409 - INFO - rndforest/train_forest - Shuffle: 3 of 10 | AUC: 0.736
+2019-04-24 16:06:49,530 - INFO - rndforest/train_forest - Shuffle: 4 of 10 | AUC: 0.729
+2019-04-24 16:06:51,651 - INFO - rndforest/train_forest - Shuffle: 5 of 10 | AUC: 0.726
+2019-04-24 16:06:53,794 - INFO - rndforest/train_forest - Shuffle: 6 of 10 | AUC: 0.739
+2019-04-24 16:06:55,814 - INFO - rndforest/train_forest - Shuffle: 7 of 10 | AUC: 0.722
+2019-04-24 16:06:57,973 - INFO - rndforest/train_forest - Shuffle: 8 of 10 | AUC: 0.731
+2019-04-24 16:07:00,003 - INFO - rndforest/train_forest - Shuffle: 9 of 10 | AUC: 0.731
+2019-04-24 16:07:02,022 - INFO - rndforest/train_forest - Shuffle: 10 of 10 | AUC: 0.736
+2019-04-24 16:07:02,022 - INFO - rndforest/train_forest - Finished | Mean AUC: 0.73 | Stdev: 0.0054
+2019-04-24 16:07:02,945 - INFO - rndforest/evaluate_default_prob - 2 of 15 bins were removed
+2019-04-24 16:07:03,007 - INFO - rndforest/evaluate_default_prob - Fit succeded | R2: 0.991
+2019-04-24 16:07:03,007 - INFO - bondapp/<module> - ############ 982 ##############
+2019-04-24 16:07:03,007 - DEBUG - api/get_investments - Requested for user: Oliver
+2019-04-24 16:07:15,411 - DEBUG - api/get_investments - Status Code: 200 - Success
+2019-04-24 16:07:15,411 - INFO - api/save_investments - Received Page 1 of 1
+2019-04-24 16:07:18,279 - INFO - api/save_investments - Investments saved
+2019-04-24 16:07:18,341 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-24 16:07:18,341 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-24 16:07:18,472 - DEBUG - api/get_secondarymarket - Requested for user: Oliver
+2019-04-24 16:07:18,472 - DEBUG - api/get_secondarymarket - Show Items: True
+2019-04-24 16:07:21,362 - DEBUG - api/get_secondarymarket - Status Code: 200 - Success
+2019-04-24 16:07:21,362 - INFO - api/get_secondarymarket - Received Page 1 of 1
+2019-04-24 16:07:21,395 - INFO - salesmgr/cancel_items - No items to cancel
+2019-04-24 16:07:21,410 - INFO - salesmgr/sell_items - No items to sell
+2019-04-24 16:07:21,410 - INFO - bondapp/<module> - ############ 983 ##############
+2019-04-24 16:07:21,426 - DEBUG - api/get_investments - Requested for user: Richard
+2019-04-24 16:07:26,491 - DEBUG - api/get_investments - Status Code: 200 - Success
+2019-04-24 16:07:26,507 - INFO - api/save_investments - Received Page 1 of 1
+2019-04-24 16:07:29,330 - INFO - api/save_investments - Investments saved
+2019-04-24 16:07:29,380 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-24 16:07:29,380 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-24 16:07:29,521 - DEBUG - api/get_secondarymarket - Requested for user: Richard
+2019-04-24 16:07:29,521 - DEBUG - api/get_secondarymarket - Show Items: True
+2019-04-24 16:07:41,789 - DEBUG - api/get_secondarymarket - Status Code: 200 - Success
+2019-04-24 16:07:41,789 - INFO - api/get_secondarymarket - Received Page 1 of 1
+2019-04-24 16:07:41,821 - INFO - salesmgr/cancel_items - No items to cancel
+2019-04-24 16:07:41,836 - INFO - salesmgr/sell_items - No items to sell
+2019-04-24 16:07:41,836 - INFO - bondapp/<module> - ############ 984 ##############
+2019-04-24 16:07:41,836 - DEBUG - api/get_investments - Requested for user: Niklas
+2019-04-24 16:07:56,063 - DEBUG - api/get_investments - Status Code: 200 - Success
+2019-04-24 16:07:56,079 - INFO - api/save_investments - Received Page 1 of 1
+2019-04-24 16:07:59,207 - INFO - api/save_investments - Investments saved
+2019-04-24 16:07:59,254 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-24 16:07:59,254 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-24 16:07:59,407 - DEBUG - api/get_secondarymarket - Requested for user: Niklas
+2019-04-24 16:07:59,407 - DEBUG - api/get_secondarymarket - Show Items: True
+2019-04-24 16:08:03,456 - DEBUG - api/get_secondarymarket - Status Code: 200 - Success
+2019-04-24 16:08:03,456 - INFO - api/get_secondarymarket - Received Page 1 of 1
+2019-04-24 16:08:03,565 - INFO - salesmgr/cancel_items - No items to cancel
+2019-04-24 16:08:03,581 - DEBUG - api/post_sellitems - Requested for user: Niklas
+2019-04-24 16:08:05,067 - DEBUG - api/post_sellitems - Status Code: 202 - Success
+2019-04-24 16:08:05,067 - INFO - api/post_sellitems - Sold 1 credits
+2019-04-24 16:22:22,940 - INFO - api/save_publicdataset - Loandataset already exists for today
+2019-04-24 16:22:25,387 - INFO - dataprep/load_data - Loaded Data: 86.1k credits
+2019-04-24 16:22:25,716 - INFO - dataprep/clean_data - 10.89 % time filtered
+2019-04-24 16:22:25,747 - INFO - dataprep/clean_data - 3.06 % NaN filtered
+2019-04-24 16:22:25,810 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-24 16:22:25,825 - INFO - dataprep/clean_data - 44.99 % of credits defaulted
+2019-04-24 16:22:25,841 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-24 16:22:25,856 - INFO - rndforest/train_forest - Train Random Forest with:
+2019-04-24 16:22:25,856 - INFO - rndforest/train_forest - No of Trees: 122
+2019-04-24 16:22:25,856 - INFO - rndforest/train_forest - Max Depth: 30
+2019-04-24 16:22:25,856 - INFO - rndforest/train_forest - Min Leaf Size: 2500
+2019-04-24 16:22:25,872 - INFO - rndforest/train_forest - Min Sample Split: 1000
+2019-04-24 16:22:25,872 - INFO - rndforest/train_forest - Crit: gini
+2019-04-24 16:22:27,859 - INFO - rndforest/train_forest - Shuffle: 1 of 10 | AUC: 0.728
+2019-04-24 16:22:29,776 - INFO - rndforest/train_forest - Shuffle: 2 of 10 | AUC: 0.736
+2019-04-24 16:22:31,562 - INFO - rndforest/train_forest - Shuffle: 3 of 10 | AUC: 0.739
+2019-04-24 16:22:33,582 - INFO - rndforest/train_forest - Shuffle: 4 of 10 | AUC: 0.731
+2019-04-24 16:22:35,482 - INFO - rndforest/train_forest - Shuffle: 5 of 10 | AUC: 0.728
+2019-04-24 16:22:37,266 - INFO - rndforest/train_forest - Shuffle: 6 of 10 | AUC: 0.735
+2019-04-24 16:22:39,275 - INFO - rndforest/train_forest - Shuffle: 7 of 10 | AUC: 0.727
+2019-04-24 16:22:41,296 - INFO - rndforest/train_forest - Shuffle: 8 of 10 | AUC: 0.732
+2019-04-24 16:22:43,086 - INFO - rndforest/train_forest - Shuffle: 9 of 10 | AUC: 0.724
+2019-04-24 16:22:44,879 - INFO - rndforest/train_forest - Shuffle: 10 of 10 | AUC: 0.737
+2019-04-24 16:22:44,879 - INFO - rndforest/train_forest - Finished | Mean AUC: 0.73 | Stdev: 0.0049
+2019-04-24 16:22:45,327 - INFO - rndforest/evaluate_default_prob - 2 of 15 bins were removed
+2019-04-24 16:22:45,389 - INFO - rndforest/evaluate_default_prob - Fit succeded | R2: 0.990
+2019-04-24 16:29:09,880 - INFO - <ipython-input-10-fcf8cccbcae2>/<module> - 10.89 % time filtered
+2019-04-24 16:29:09,942 - INFO - <ipython-input-10-fcf8cccbcae2>/<module> - 3.06 % NaN filtered
+2019-04-24 16:29:10,005 - DEBUG - <ipython-input-10-fcf8cccbcae2>/<module> - Number of remaining NaN: 0
+2019-04-24 16:29:10,020 - INFO - <ipython-input-10-fcf8cccbcae2>/<module> - 44.99 % of credits defaulted
+2019-04-24 16:29:10,020 - INFO - <ipython-input-10-fcf8cccbcae2>/<module> - Finished Data Cleansing

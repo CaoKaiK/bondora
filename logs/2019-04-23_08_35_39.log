@@ -1,0 +1,89 @@
+2019-04-23 08:35:39,307 - DEBUG - log/custom_logger - Logging started on: 2019-04-23 08:35:39
+2019-04-23 08:35:39,307 - DEBUG - log/custom_logger - ################################
+2019-04-23 08:35:39,307 - INFO - api/save_publicdataset - Loandataset already exists for today
+2019-04-23 08:35:41,795 - INFO - dataprep/load_data - Loaded Data: 86.0k credits
+2019-04-23 08:35:42,045 - INFO - dataprep/clean_data - 10.92 % time filtered
+2019-04-23 08:35:42,091 - INFO - dataprep/clean_data - 3.07 % NaN filtered
+2019-04-23 08:35:42,156 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-23 08:35:42,163 - INFO - dataprep/clean_data - 45.08 % of credits defaulted
+2019-04-23 08:35:42,173 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-23 08:35:42,200 - INFO - rndforest/train_forest - Train Random Forest with:
+2019-04-23 08:35:42,202 - INFO - rndforest/train_forest - No of Trees: 122
+2019-04-23 08:35:42,203 - INFO - rndforest/train_forest - Max Depth: 30
+2019-04-23 08:35:42,204 - INFO - rndforest/train_forest - Min Leaf Size: 2500
+2019-04-23 08:35:42,205 - INFO - rndforest/train_forest - Min Sample Split: 1000
+2019-04-23 08:35:42,206 - INFO - rndforest/train_forest - Crit: gini
+2019-04-23 08:35:44,045 - INFO - rndforest/train_forest - Shuffle: 1 of 10 | AUC: 0.742
+2019-04-23 08:35:45,867 - INFO - rndforest/train_forest - Shuffle: 2 of 10 | AUC: 0.731
+2019-04-23 08:35:48,018 - INFO - rndforest/train_forest - Shuffle: 3 of 10 | AUC: 0.742
+2019-04-23 08:35:49,947 - INFO - rndforest/train_forest - Shuffle: 4 of 10 | AUC: 0.728
+2019-04-23 08:35:51,875 - INFO - rndforest/train_forest - Shuffle: 5 of 10 | AUC: 0.727
+2019-04-23 08:35:53,697 - INFO - rndforest/train_forest - Shuffle: 6 of 10 | AUC: 0.733
+2019-04-23 08:35:55,732 - INFO - rndforest/train_forest - Shuffle: 7 of 10 | AUC: 0.723
+2019-04-23 08:35:57,560 - INFO - rndforest/train_forest - Shuffle: 8 of 10 | AUC: 0.726
+2019-04-23 08:35:59,586 - INFO - rndforest/train_forest - Shuffle: 9 of 10 | AUC: 0.730
+2019-04-23 08:36:01,409 - INFO - rndforest/train_forest - Shuffle: 10 of 10 | AUC: 0.724
+2019-04-23 08:36:01,411 - INFO - rndforest/train_forest - Finished | Mean AUC: 0.73 | Stdev: 0.0067
+2019-04-23 08:36:01,772 - INFO - rndforest/evaluate_default_prob - 1 of 15 bins were removed
+2019-04-23 08:36:01,821 - INFO - rndforest/evaluate_default_prob - Fit succeded | R2: 0.992
+2019-04-23 08:36:01,824 - INFO - bondapp/<module> - ############ 982 ##############
+2019-04-23 08:36:01,825 - INFO - api/save_investments - Loandataset already exists for today
+2019-04-23 08:36:01,849 - INFO - dataprep/load_data - Loaded Data: 0.2k credits
+2019-04-23 08:36:01,866 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-23 08:36:01,867 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-23 08:36:01,978 - DEBUG - api/get_secondarymarket - Requested for user: Oliver
+2019-04-23 08:36:01,979 - DEBUG - api/get_secondarymarket - Show Items: True
+2019-04-23 08:36:02,548 - DEBUG - api/get_secondarymarket - Status Code: 200 - Success
+2019-04-23 08:36:02,548 - INFO - api/get_secondarymarket - No items on secondary market
+2019-04-23 08:36:02,549 - INFO - salesmgr/cancel_items - No items to cancel
+2019-04-23 08:36:02,554 - INFO - salesmgr/sell_items - No items to sell
+2019-04-23 08:36:02,555 - INFO - bondapp/<module> - ############ 983 ##############
+2019-04-23 08:36:02,556 - INFO - api/save_investments - Loandataset already exists for today
+2019-04-23 08:36:02,589 - INFO - dataprep/load_data - Loaded Data: 0.6k credits
+2019-04-23 08:36:02,606 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-23 08:36:02,607 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-23 08:36:02,720 - DEBUG - api/get_secondarymarket - Requested for user: Richard
+2019-04-23 08:36:02,721 - DEBUG - api/get_secondarymarket - Show Items: True
+2019-04-23 08:36:03,204 - DEBUG - api/get_secondarymarket - Status Code: 200 - Success
+2019-04-23 08:36:03,204 - INFO - api/get_secondarymarket - No items on secondary market
+2019-04-23 08:36:03,205 - INFO - salesmgr/cancel_items - No items to cancel
+2019-04-23 08:36:03,209 - INFO - salesmgr/sell_items - No items to sell
+2019-04-23 08:36:03,210 - INFO - bondapp/<module> - ############ 984 ##############
+2019-04-23 08:36:03,211 - INFO - api/save_investments - Loandataset already exists for today
+2019-04-23 08:36:03,277 - INFO - dataprep/load_data - Loaded Data: 1.7k credits
+2019-04-23 08:36:03,297 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-23 08:36:03,298 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-23 08:36:03,415 - DEBUG - api/get_secondarymarket - Requested for user: Niklas
+2019-04-23 08:36:03,415 - DEBUG - api/get_secondarymarket - Show Items: True
+2019-04-23 08:36:04,909 - DEBUG - api/get_secondarymarket - Status Code: 200 - Success
+2019-04-23 08:36:04,910 - INFO - api/get_secondarymarket - Received Page 1 of 1
+2019-04-23 08:36:05,023 - DEBUG - api/post_cancelitem - Requested for user: Niklas
+2019-04-23 08:36:06,603 - DEBUG - api/post_cancelitem - Status Code: 202 - Success
+2019-04-23 08:36:06,603 - INFO - api/post_cancelitem - Canceled 100 credits
+2019-04-23 08:36:06,604 - DEBUG - api/post_cancelitem - Requested for user: Niklas
+2019-04-23 08:36:08,686 - DEBUG - api/post_cancelitem - Status Code: 202 - Success
+2019-04-23 08:36:08,686 - INFO - api/post_cancelitem - Canceled 100 credits
+2019-04-23 08:36:08,687 - DEBUG - api/post_cancelitem - Requested for user: Niklas
+2019-04-23 08:36:10,082 - DEBUG - api/post_cancelitem - Status Code: 202 - Success
+2019-04-23 08:36:10,082 - INFO - api/post_cancelitem - Canceled 100 credits
+2019-04-23 08:36:10,083 - DEBUG - api/post_cancelitem - Requested for user: Niklas
+2019-04-23 08:36:11,536 - DEBUG - api/post_cancelitem - Status Code: 202 - Success
+2019-04-23 08:36:11,536 - INFO - api/post_cancelitem - Canceled 100 credits
+2019-04-23 08:36:11,537 - DEBUG - api/post_cancelitem - Requested for user: Niklas
+2019-04-23 08:36:13,029 - DEBUG - api/post_cancelitem - Status Code: 202 - Success
+2019-04-23 08:36:13,029 - INFO - api/post_cancelitem - Canceled 25 credits
+2019-04-23 08:36:13,038 - DEBUG - api/post_sellitems - Requested for user: Niklas
+2019-04-23 08:36:15,085 - DEBUG - api/post_sellitems - Status Code: 202 - Success
+2019-04-23 08:36:15,085 - INFO - api/post_sellitems - Sold 100 credits
+2019-04-23 08:36:15,088 - DEBUG - api/post_sellitems - Requested for user: Niklas
+2019-04-23 08:36:17,302 - DEBUG - api/post_sellitems - Status Code: 202 - Success
+2019-04-23 08:36:17,302 - INFO - api/post_sellitems - Sold 100 credits
+2019-04-23 08:36:17,305 - DEBUG - api/post_sellitems - Requested for user: Niklas
+2019-04-23 08:36:19,738 - DEBUG - api/post_sellitems - Status Code: 202 - Success
+2019-04-23 08:36:19,738 - INFO - api/post_sellitems - Sold 100 credits
+2019-04-23 08:36:19,741 - DEBUG - api/post_sellitems - Requested for user: Niklas
+2019-04-23 08:36:21,901 - DEBUG - api/post_sellitems - Status Code: 202 - Success
+2019-04-23 08:36:21,901 - INFO - api/post_sellitems - Sold 100 credits
+2019-04-23 08:36:21,904 - DEBUG - api/post_sellitems - Requested for user: Niklas
+2019-04-23 08:36:23,340 - DEBUG - api/post_sellitems - Status Code: 202 - Success
+2019-04-23 08:36:23,340 - INFO - api/post_sellitems - Sold 40 credits

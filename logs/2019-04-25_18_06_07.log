@@ -1,0 +1,65 @@
+2019-04-25 18:06:07,657 - DEBUG - log/custom_logger - Logging started on: 2019-04-25 18:06:07
+2019-04-25 18:06:07,657 - DEBUG - log/custom_logger - ################################
+2019-04-25 18:06:07,657 - INFO - api/save_publicdataset - Loandataset already exists for today
+2019-04-25 18:06:10,316 - INFO - dataprep/load_data - Loaded Data: 86.3k credits
+2019-04-25 18:06:10,677 - INFO - dataprep/clean_data - 10.92 % time filtered
+2019-04-25 18:06:10,770 - INFO - dataprep/clean_data - 3.06 % NaN filtered
+2019-04-25 18:06:11,145 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-25 18:06:11,145 - INFO - dataprep/clean_data - 32.80 % of credits defaulted
+2019-04-25 18:06:11,177 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-25 18:06:11,239 - DEBUG - rndforest/train_forest - Train Random Forest with:
+2019-04-25 18:06:11,239 - DEBUG - rndforest/train_forest - No of Trees: 122
+2019-04-25 18:06:11,239 - DEBUG - rndforest/train_forest - Max Depth: 30
+2019-04-25 18:06:11,239 - DEBUG - rndforest/train_forest - Min Leaf Size: 2500
+2019-04-25 18:06:11,239 - DEBUG - rndforest/train_forest - Min Sample Split: 1000
+2019-04-25 18:06:11,239 - DEBUG - rndforest/train_forest - Crit: gini
+2019-04-25 18:06:13,105 - INFO - rndforest/train_forest - Shuffle: 1 of 10 | AUC: 0.771
+2019-04-25 18:06:15,005 - INFO - rndforest/train_forest - Shuffle: 2 of 10 | AUC: 0.776
+2019-04-25 18:06:16,913 - INFO - rndforest/train_forest - Shuffle: 3 of 10 | AUC: 0.771
+2019-04-25 18:06:18,926 - INFO - rndforest/train_forest - Shuffle: 4 of 10 | AUC: 0.778
+2019-04-25 18:06:20,729 - INFO - rndforest/train_forest - Shuffle: 5 of 10 | AUC: 0.773
+2019-04-25 18:06:22,512 - INFO - rndforest/train_forest - Shuffle: 6 of 10 | AUC: 0.779
+2019-04-25 18:06:24,395 - INFO - rndforest/train_forest - Shuffle: 7 of 10 | AUC: 0.774
+2019-04-25 18:06:26,185 - INFO - rndforest/train_forest - Shuffle: 8 of 10 | AUC: 0.769
+2019-04-25 18:06:27,968 - INFO - rndforest/train_forest - Shuffle: 9 of 10 | AUC: 0.767
+2019-04-25 18:06:29,747 - INFO - rndforest/train_forest - Shuffle: 10 of 10 | AUC: 0.768
+2019-04-25 18:06:30,670 - INFO - rndforest/train_forest - Finished | Mean AUC: 0.77 | Stdev: 0.0041
+2019-04-25 18:06:30,967 - INFO - rndforest/evaluate_default_prob - 3 of 14 bins were removed
+2019-04-25 18:06:31,030 - INFO - rndforest/evaluate_default_prob - Fit succeded | R2: 0.986
+2019-04-25 18:06:31,030 - INFO - bondapp/<module> - ############ 982 ##############
+2019-04-25 18:06:31,030 - DEBUG - api/get_investments - Requested for user: Oliver
+2019-04-25 18:06:33,581 - DEBUG - api/get_investments - Status Code: 200 - Success
+2019-04-25 18:06:33,581 - INFO - api/save_investments - Received Page 1 of 1
+2019-04-25 18:06:36,161 - INFO - api/save_investments - Investments saved
+2019-04-25 18:06:36,208 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-25 18:06:36,208 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-25 18:07:08,001 - INFO - api/save_publicdataset - Loandataset already exists for today
+2019-04-25 18:07:10,432 - INFO - dataprep/load_data - Loaded Data: 86.3k credits
+2019-04-25 18:07:10,792 - INFO - dataprep/clean_data - 10.92 % time filtered
+2019-04-25 18:07:10,854 - INFO - dataprep/clean_data - 3.06 % NaN filtered
+2019-04-25 18:07:11,026 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-25 18:07:11,026 - INFO - dataprep/clean_data - 32.80 % of credits defaulted
+2019-04-25 18:07:11,042 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-25 18:07:11,073 - DEBUG - rndforest/train_forest - Train Random Forest with:
+2019-04-25 18:07:11,073 - DEBUG - rndforest/train_forest - No of Trees: 122
+2019-04-25 18:07:11,073 - DEBUG - rndforest/train_forest - Max Depth: 30
+2019-04-25 18:07:11,073 - DEBUG - rndforest/train_forest - Min Leaf Size: 2500
+2019-04-25 18:07:11,073 - DEBUG - rndforest/train_forest - Min Sample Split: 1000
+2019-04-25 18:07:11,073 - DEBUG - rndforest/train_forest - Crit: gini
+2019-04-25 18:07:12,904 - INFO - rndforest/train_forest - Shuffle: 1 of 10 | AUC: 0.778
+2019-04-25 18:07:14,660 - INFO - rndforest/train_forest - Shuffle: 2 of 10 | AUC: 0.776
+2019-04-25 18:07:16,403 - INFO - rndforest/train_forest - Shuffle: 3 of 10 | AUC: 0.781
+2019-04-25 18:07:18,140 - INFO - rndforest/train_forest - Shuffle: 4 of 10 | AUC: 0.770
+2019-04-25 18:07:19,901 - INFO - rndforest/train_forest - Shuffle: 5 of 10 | AUC: 0.771
+2019-04-25 18:07:21,654 - INFO - rndforest/train_forest - Shuffle: 6 of 10 | AUC: 0.776
+2019-04-25 18:07:23,409 - INFO - rndforest/train_forest - Shuffle: 7 of 10 | AUC: 0.781
+2019-04-25 18:07:25,152 - INFO - rndforest/train_forest - Shuffle: 8 of 10 | AUC: 0.778
+2019-04-25 18:07:26,904 - INFO - rndforest/train_forest - Shuffle: 9 of 10 | AUC: 0.777
+2019-04-25 18:07:28,659 - INFO - rndforest/train_forest - Shuffle: 10 of 10 | AUC: 0.772
+2019-04-25 18:07:29,550 - INFO - rndforest/train_forest - Finished | Mean AUC: 0.78 | Stdev: 0.0040
+2019-04-25 18:07:29,949 - INFO - rndforest/evaluate_default_prob - 3 of 16 bins were removed
+2019-04-25 18:07:29,996 - INFO - rndforest/evaluate_default_prob - Fit succeded | R2: 0.992
+2019-04-25 18:07:29,996 - INFO - bondapp/<module> - ############ 982 ##############
+2019-04-25 18:07:29,996 - DEBUG - api/get_investments - Requested for user: Oliver
+2019-04-25 18:07:31,487 - WARNING - api/get_investments - Status Code: 429 - Failed
+2019-04-25 18:07:31,487 - INFO - api/save_investments - Received Page 1 of 0

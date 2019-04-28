@@ -1,0 +1,107 @@
+2019-04-28 10:16:46,144 - DEBUG - log/custom_logger - Logging started on: 2019-04-28 10:16:46
+2019-04-28 10:16:46,144 - DEBUG - log/custom_logger - ################################
+2019-04-28 10:16:46,144 - DEBUG - api/get_publicdataset - Requested for user: Oliver
+2019-04-28 10:16:57,326 - DEBUG - api/get_publicdataset - Status Code: 200 - Success
+2019-04-28 10:16:57,357 - INFO - api/save_publicdataset - Received Page 1 of 9
+2019-04-28 10:16:57,357 - DEBUG - api/get_publicdataset - Requested for user: Oliver
+2019-04-28 10:17:08,918 - DEBUG - api/get_publicdataset - Status Code: 200 - Success
+2019-04-28 10:17:09,028 - INFO - api/save_publicdataset - Received Page 2 of 9
+2019-04-28 10:17:09,028 - DEBUG - api/get_publicdataset - Requested for user: Oliver
+2019-04-28 10:17:20,191 - DEBUG - api/get_publicdataset - Status Code: 200 - Success
+2019-04-28 10:17:20,394 - INFO - api/save_publicdataset - Received Page 3 of 9
+2019-04-28 10:17:20,394 - DEBUG - api/get_publicdataset - Requested for user: Oliver
+2019-04-28 10:17:32,699 - DEBUG - api/get_publicdataset - Status Code: 200 - Success
+2019-04-28 10:17:32,982 - INFO - api/save_publicdataset - Received Page 4 of 9
+2019-04-28 10:17:32,982 - DEBUG - api/get_publicdataset - Requested for user: Oliver
+2019-04-28 10:17:45,820 - DEBUG - api/get_publicdataset - Status Code: 200 - Success
+2019-04-28 10:17:46,148 - INFO - api/save_publicdataset - Received Page 5 of 9
+2019-04-28 10:17:46,148 - DEBUG - api/get_publicdataset - Requested for user: Oliver
+2019-04-28 10:17:58,274 - DEBUG - api/get_publicdataset - Status Code: 200 - Success
+2019-04-28 10:17:58,680 - INFO - api/save_publicdataset - Received Page 6 of 9
+2019-04-28 10:17:58,680 - DEBUG - api/get_publicdataset - Requested for user: Oliver
+2019-04-28 10:18:10,610 - DEBUG - api/get_publicdataset - Status Code: 200 - Success
+2019-04-28 10:18:11,080 - INFO - api/save_publicdataset - Received Page 7 of 9
+2019-04-28 10:18:11,080 - DEBUG - api/get_publicdataset - Requested for user: Oliver
+2019-04-28 10:18:24,973 - DEBUG - api/get_publicdataset - Status Code: 200 - Success
+2019-04-28 10:18:25,488 - INFO - api/save_publicdataset - Received Page 8 of 9
+2019-04-28 10:18:25,488 - DEBUG - api/get_publicdataset - Requested for user: Oliver
+2019-04-28 10:18:35,349 - DEBUG - api/get_publicdataset - Status Code: 200 - Success
+2019-04-28 10:18:35,928 - INFO - api/save_publicdataset - Received Page 9 of 9
+2019-04-28 10:18:43,353 - INFO - api/save_publicdataset - Public Data set saved
+2019-04-28 10:18:44,073 - INFO - dataprep/clean_data - 11.14 % time filtered
+2019-04-28 10:18:44,276 - INFO - dataprep/clean_data - 7.83 % NaN filtered
+2019-04-28 10:18:44,771 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-28 10:18:44,771 - INFO - dataprep/clean_data - 33.66 % of credits defaulted
+2019-04-28 10:18:44,787 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-28 10:18:44,944 - DEBUG - rndforest/train_forest - Train Random Forest with:
+2019-04-28 10:18:44,944 - DEBUG - rndforest/train_forest - No of Trees: 166
+2019-04-28 10:18:44,944 - DEBUG - rndforest/train_forest - Max Depth: 30
+2019-04-28 10:18:44,944 - DEBUG - rndforest/train_forest - Min Leaf Size: 2500
+2019-04-28 10:18:44,944 - DEBUG - rndforest/train_forest - Min Sample Split: 1000
+2019-04-28 10:18:44,944 - DEBUG - rndforest/train_forest - Crit: gini
+2019-04-28 10:18:48,073 - INFO - rndforest/train_forest - Shuffle: 1 of 10 | AUC: 0.800
+2019-04-28 10:18:51,133 - INFO - rndforest/train_forest - Shuffle: 2 of 10 | AUC: 0.785
+2019-04-28 10:18:54,217 - INFO - rndforest/train_forest - Shuffle: 3 of 10 | AUC: 0.796
+2019-04-28 10:18:57,042 - INFO - rndforest/train_forest - Shuffle: 4 of 10 | AUC: 0.795
+2019-04-28 10:18:59,867 - INFO - rndforest/train_forest - Shuffle: 5 of 10 | AUC: 0.793
+2019-04-28 10:19:02,604 - INFO - rndforest/train_forest - Shuffle: 6 of 10 | AUC: 0.798
+2019-04-28 10:19:05,431 - INFO - rndforest/train_forest - Shuffle: 7 of 10 | AUC: 0.796
+2019-04-28 10:19:08,269 - INFO - rndforest/train_forest - Shuffle: 8 of 10 | AUC: 0.799
+2019-04-28 10:19:11,011 - INFO - rndforest/train_forest - Shuffle: 9 of 10 | AUC: 0.795
+2019-04-28 10:19:13,839 - INFO - rndforest/train_forest - Shuffle: 10 of 10 | AUC: 0.804
+2019-04-28 10:19:15,469 - INFO - rndforest/train_forest - Finished | Mean AUC: 0.796 | Stdev: 0.0051
+2019-04-28 10:19:16,299 - INFO - rndforest/evaluate_default_prob - 2 of 15 bins were removed
+2019-04-28 10:19:16,361 - INFO - rndforest/evaluate_default_prob - Fit succeded | R2: 0.988
+2019-04-28 10:19:16,377 - INFO - bondapp/<module> - ############ 982 ##############
+2019-04-28 10:19:16,377 - DEBUG - api/get_investments - Requested for user: Oliver
+2019-04-28 10:19:25,747 - DEBUG - api/get_investments - Status Code: 200 - Success
+2019-04-28 10:19:25,747 - INFO - api/save_investments - Received Page 1 of 1
+2019-04-28 10:19:28,416 - INFO - api/save_investments - Investments saved
+2019-04-28 10:19:28,556 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-28 10:19:28,556 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-28 10:19:28,681 - DEBUG - api/get_secondarymarket - Requested for user: Oliver
+2019-04-28 10:19:28,681 - DEBUG - api/get_secondarymarket - Show Items: True
+2019-04-28 10:19:34,171 - DEBUG - api/get_secondarymarket - Status Code: 200 - Success
+2019-04-28 10:19:34,171 - INFO - api/get_secondarymarket - Received Page 1 of 1
+2019-04-28 10:19:34,186 - DEBUG - api/post_cancelitem - Requested for user: Oliver
+2019-04-28 10:19:37,289 - DEBUG - api/post_cancelitem - Status Code: 202 - Success
+2019-04-28 10:19:37,289 - INFO - api/post_cancelitem - Canceled 3 credits
+2019-04-28 10:19:37,304 - DEBUG - api/post_sellitems - Requested for user: Oliver
+2019-04-28 10:19:40,842 - DEBUG - api/post_sellitems - Status Code: 202 - Success
+2019-04-28 10:19:40,842 - INFO - api/post_sellitems - Sold 10 credits
+2019-04-28 10:19:40,842 - INFO - bondapp/<module> - ############ 983 ##############
+2019-04-28 10:19:40,842 - DEBUG - api/get_investments - Requested for user: Richard
+2019-04-28 10:19:50,546 - DEBUG - api/get_investments - Status Code: 200 - Success
+2019-04-28 10:19:50,546 - INFO - api/save_investments - Received Page 1 of 1
+2019-04-28 10:19:53,284 - INFO - api/save_investments - Investments saved
+2019-04-28 10:19:53,409 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-28 10:19:53,409 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-28 10:19:53,534 - DEBUG - api/get_secondarymarket - Requested for user: Richard
+2019-04-28 10:19:53,534 - DEBUG - api/get_secondarymarket - Show Items: True
+2019-04-28 10:19:56,390 - DEBUG - api/get_secondarymarket - Status Code: 200 - Success
+2019-04-28 10:19:56,390 - INFO - api/get_secondarymarket - No items on secondary market
+2019-04-28 10:19:56,390 - INFO - salesmgr/cancel_items - No items to cancel
+2019-04-28 10:19:56,405 - DEBUG - api/post_sellitems - Requested for user: Richard
+2019-04-28 10:19:59,561 - DEBUG - api/post_sellitems - Status Code: 202 - Success
+2019-04-28 10:19:59,561 - INFO - api/post_sellitems - Sold 9 credits
+2019-04-28 10:19:59,561 - INFO - bondapp/<module> - ############ 984 ##############
+2019-04-28 10:19:59,561 - DEBUG - api/get_investments - Requested for user: Niklas
+2019-04-28 10:20:13,861 - DEBUG - api/get_investments - Status Code: 200 - Success
+2019-04-28 10:20:13,861 - INFO - api/save_investments - Received Page 1 of 1
+2019-04-28 10:20:16,787 - INFO - api/save_investments - Investments saved
+2019-04-28 10:20:16,928 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-28 10:20:16,928 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-28 10:20:17,053 - DEBUG - api/get_secondarymarket - Requested for user: Niklas
+2019-04-28 10:20:17,053 - DEBUG - api/get_secondarymarket - Show Items: True
+2019-04-28 10:20:19,988 - DEBUG - api/get_secondarymarket - Status Code: 200 - Success
+2019-04-28 10:20:19,988 - INFO - api/get_secondarymarket - Received Page 1 of 1
+2019-04-28 10:20:20,003 - DEBUG - api/post_cancelitem - Requested for user: Niklas
+2019-04-28 10:20:22,443 - DEBUG - api/post_cancelitem - Status Code: 202 - Success
+2019-04-28 10:20:22,443 - INFO - api/post_cancelitem - Canceled 48 credits
+2019-04-28 10:20:22,443 - DEBUG - api/post_sellitems - Requested for user: Niklas
+2019-04-28 10:20:26,349 - DEBUG - api/post_sellitems - Status Code: 202 - Success
+2019-04-28 10:20:26,349 - INFO - api/post_sellitems - Sold 100 credits
+2019-04-28 10:20:26,365 - DEBUG - api/post_sellitems - Requested for user: Niklas
+2019-04-28 10:20:29,098 - DEBUG - api/post_sellitems - Status Code: 202 - Success
+2019-04-28 10:20:29,098 - INFO - api/post_sellitems - Sold 9 credits
+2019-04-28 10:20:29,098 - INFO - bondapp/<module> - Finished

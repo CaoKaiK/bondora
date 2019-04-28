@@ -1,0 +1,185 @@
+2019-04-21 09:10:37,278 - DEBUG - log/custom_logger - Logging started on: 2019-04-21 09:10:37
+2019-04-21 09:10:37,278 - DEBUG - log/custom_logger - ################################
+2019-04-21 09:10:37,278 - DEBUG - api/get_publicdataset - Requested for user: Niklas
+2019-04-21 09:10:54,786 - DEBUG - api/get_publicdataset - Status Code: 200 - Success
+2019-04-21 09:10:54,816 - INFO - api/save_publicdataset - Received Page 1 of 9
+2019-04-21 09:10:54,821 - DEBUG - api/get_publicdataset - Requested for user: Niklas
+2019-04-21 09:11:10,885 - DEBUG - api/get_publicdataset - Status Code: 200 - Success
+2019-04-21 09:11:11,989 - INFO - api/save_publicdataset - Received Page 2 of 9
+2019-04-21 09:11:11,989 - DEBUG - api/get_publicdataset - Requested for user: Niklas
+2019-04-21 09:11:38,041 - DEBUG - api/get_publicdataset - Status Code: 200 - Success
+2019-04-21 09:11:39,249 - INFO - api/save_publicdataset - Received Page 3 of 9
+2019-04-21 09:11:39,250 - DEBUG - api/get_publicdataset - Requested for user: Niklas
+2019-04-21 09:12:00,351 - DEBUG - api/get_publicdataset - Status Code: 200 - Success
+2019-04-21 09:12:01,628 - INFO - api/save_publicdataset - Received Page 4 of 9
+2019-04-21 09:12:01,629 - DEBUG - api/get_publicdataset - Requested for user: Niklas
+2019-04-21 09:12:32,919 - DEBUG - api/get_publicdataset - Status Code: 200 - Success
+2019-04-21 09:12:34,258 - INFO - api/save_publicdataset - Received Page 5 of 9
+2019-04-21 09:12:34,259 - DEBUG - api/get_publicdataset - Requested for user: Niklas
+2019-04-21 09:12:54,267 - DEBUG - api/get_publicdataset - Status Code: 200 - Success
+2019-04-21 09:12:55,669 - INFO - api/save_publicdataset - Received Page 6 of 9
+2019-04-21 09:12:55,670 - DEBUG - api/get_publicdataset - Requested for user: Niklas
+2019-04-21 09:13:11,941 - DEBUG - api/get_publicdataset - Status Code: 200 - Success
+2019-04-21 09:13:13,410 - INFO - api/save_publicdataset - Received Page 7 of 9
+2019-04-21 09:13:13,411 - DEBUG - api/get_publicdataset - Requested for user: Niklas
+2019-04-21 09:13:38,124 - DEBUG - api/get_publicdataset - Status Code: 200 - Success
+2019-04-21 09:13:39,646 - INFO - api/save_publicdataset - Received Page 8 of 9
+2019-04-21 09:13:39,647 - DEBUG - api/get_publicdataset - Requested for user: Niklas
+2019-04-21 09:13:55,323 - DEBUG - api/get_publicdataset - Status Code: 200 - Success
+2019-04-21 09:13:56,885 - INFO - api/save_publicdataset - Received Page 9 of 9
+2019-04-21 09:14:04,333 - INFO - api/save_publicdataset - Public Data set saved
+2019-04-21 09:14:04,467 - DEBUG - api/get_investments - Requested for user: Niklas
+2019-04-21 09:14:13,921 - DEBUG - api/get_investments - Status Code: 200 - Success
+2019-04-21 09:14:13,929 - INFO - api/save_investments - Received Page 1 of 1
+2019-04-21 09:14:16,833 - INFO - api/save_investments - Investments saved
+2019-04-21 09:14:19,371 - INFO - dataprep/load_data - Loaded LoanData
+2019-04-21 09:14:19,660 - INFO - dataprep/clean_data - 10.96 % time filtered
+2019-04-21 09:14:19,827 - INFO - dataprep/clean_data - 3.19 % NaN filtered
+2019-04-21 09:14:19,980 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-21 09:14:19,987 - INFO - dataprep/clean_data - 45.11 % of credits defaulted
+2019-04-21 09:14:20,005 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-21 09:14:22,822 - INFO - rndforest/train_forest - Shuffle: 1 of 10 | AUC: 0.742
+2019-04-21 09:14:25,230 - INFO - rndforest/train_forest - Shuffle: 2 of 10 | AUC: 0.737
+2019-04-21 09:14:27,622 - INFO - rndforest/train_forest - Shuffle: 3 of 10 | AUC: 0.755
+2019-04-21 09:14:30,007 - INFO - rndforest/train_forest - Shuffle: 4 of 10 | AUC: 0.743
+2019-04-21 09:14:32,393 - INFO - rndforest/train_forest - Shuffle: 5 of 10 | AUC: 0.745
+2019-04-21 09:14:34,776 - INFO - rndforest/train_forest - Shuffle: 6 of 10 | AUC: 0.730
+2019-04-21 09:14:37,170 - INFO - rndforest/train_forest - Shuffle: 7 of 10 | AUC: 0.732
+2019-04-21 09:14:39,563 - INFO - rndforest/train_forest - Shuffle: 8 of 10 | AUC: 0.738
+2019-04-21 09:14:41,963 - INFO - rndforest/train_forest - Shuffle: 9 of 10 | AUC: 0.736
+2019-04-21 09:14:44,352 - INFO - rndforest/train_forest - Shuffle: 10 of 10 | AUC: 0.733
+2019-04-21 09:19:14,823 - INFO - api/save_publicdataset - Loandataset already exists for today
+2019-04-21 09:19:14,824 - DEBUG - api/get_investments - Requested for user: Niklas
+2019-04-21 09:19:28,822 - DEBUG - api/get_investments - Status Code: 200 - Success
+2019-04-21 09:19:28,828 - INFO - api/save_investments - Received Page 1 of 1
+2019-04-21 09:19:31,762 - INFO - api/save_investments - Investments saved
+2019-04-21 09:19:34,303 - INFO - dataprep/load_data - Loaded LoanData: {len(dataRaw)/1000:.1f}k credits
+2019-04-21 09:19:34,584 - INFO - dataprep/clean_data - 10.96 % time filtered
+2019-04-21 09:19:34,748 - INFO - dataprep/clean_data - 3.19 % NaN filtered
+2019-04-21 09:19:34,899 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-21 09:19:34,916 - INFO - dataprep/clean_data - 45.11 % of credits defaulted
+2019-04-21 09:19:34,935 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-21 09:19:37,478 - INFO - rndforest/train_forest - Shuffle: 1 of 10 | AUC: 0.732
+2019-04-21 09:19:39,881 - INFO - rndforest/train_forest - Shuffle: 2 of 10 | AUC: 0.748
+2019-04-21 09:19:42,375 - INFO - rndforest/train_forest - Shuffle: 3 of 10 | AUC: 0.746
+2019-04-21 09:19:44,774 - INFO - rndforest/train_forest - Shuffle: 4 of 10 | AUC: 0.735
+2019-04-21 09:19:47,186 - INFO - rndforest/train_forest - Shuffle: 5 of 10 | AUC: 0.724
+2019-04-21 09:19:49,801 - INFO - rndforest/train_forest - Shuffle: 6 of 10 | AUC: 0.734
+2019-04-21 09:19:52,204 - INFO - rndforest/train_forest - Shuffle: 7 of 10 | AUC: 0.740
+2019-04-21 09:19:54,613 - INFO - rndforest/train_forest - Shuffle: 8 of 10 | AUC: 0.734
+2019-04-21 09:19:57,127 - INFO - rndforest/train_forest - Shuffle: 9 of 10 | AUC: 0.740
+2019-04-21 09:19:59,631 - INFO - rndforest/train_forest - Shuffle: 10 of 10 | AUC: 0.753
+2019-04-21 09:19:59,633 - INFO - rndforest/train_forest - Training finished | Mean AUC: 0.7387258017099176 Stdev: 0.008430629640101685
+2019-04-21 09:20:59,002 - INFO - api/save_publicdataset - Loandataset already exists for today
+2019-04-21 09:20:59,003 - DEBUG - api/get_investments - Requested for user: Niklas
+2019-04-21 09:21:10,821 - DEBUG - api/get_investments - Status Code: 200 - Success
+2019-04-21 09:21:10,827 - INFO - api/save_investments - Received Page 1 of 1
+2019-04-21 09:21:13,684 - INFO - api/save_investments - Investments saved
+2019-04-21 09:21:16,218 - INFO - dataprep/load_data - Loaded LoanData: {length:.1f}k credits
+2019-04-21 09:21:16,502 - INFO - dataprep/clean_data - 10.96 % time filtered
+2019-04-21 09:21:16,669 - INFO - dataprep/clean_data - 3.19 % NaN filtered
+2019-04-21 09:21:16,885 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-21 09:21:16,902 - INFO - dataprep/clean_data - 45.11 % of credits defaulted
+2019-04-21 09:21:16,927 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-21 09:21:19,474 - INFO - rndforest/train_forest - Shuffle: 1 of 10 | AUC: 0.742
+2019-04-21 09:21:21,878 - INFO - rndforest/train_forest - Shuffle: 2 of 10 | AUC: 0.745
+2019-04-21 09:21:24,275 - INFO - rndforest/train_forest - Shuffle: 3 of 10 | AUC: 0.744
+2019-04-21 09:21:26,672 - INFO - rndforest/train_forest - Shuffle: 4 of 10 | AUC: 0.737
+2019-04-21 09:21:29,088 - INFO - rndforest/train_forest - Shuffle: 5 of 10 | AUC: 0.742
+2019-04-21 09:21:31,484 - INFO - rndforest/train_forest - Shuffle: 6 of 10 | AUC: 0.748
+2019-04-21 09:21:33,885 - INFO - rndforest/train_forest - Shuffle: 7 of 10 | AUC: 0.747
+2019-04-21 09:21:36,292 - INFO - rndforest/train_forest - Shuffle: 8 of 10 | AUC: 0.736
+2019-04-21 09:21:38,693 - INFO - rndforest/train_forest - Shuffle: 9 of 10 | AUC: 0.740
+2019-04-21 09:21:41,092 - INFO - rndforest/train_forest - Shuffle: 10 of 10 | AUC: 0.740
+2019-04-21 09:21:41,094 - INFO - rndforest/train_forest - Training finished | Mean AUC: 0.74 Stdev: 0.0038
+2019-04-21 09:23:37,444 - INFO - api/save_publicdataset - Loandataset already exists for today
+2019-04-21 09:23:37,445 - DEBUG - api/get_investments - Requested for user: Niklas
+2019-04-21 09:23:48,679 - DEBUG - api/get_investments - Status Code: 200 - Success
+2019-04-21 09:23:48,687 - INFO - api/save_investments - Received Page 1 of 1
+2019-04-21 09:23:51,710 - INFO - api/save_investments - Investments saved
+2019-04-21 09:23:54,301 - INFO - dataprep/load_data - Loaded LoanData: 85.7k credits
+2019-04-21 09:23:54,609 - INFO - dataprep/clean_data - 10.96 % time filtered
+2019-04-21 09:23:54,782 - INFO - dataprep/clean_data - 3.19 % NaN filtered
+2019-04-21 09:23:54,973 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-21 09:23:54,980 - INFO - dataprep/clean_data - 45.11 % of credits defaulted
+2019-04-21 09:23:55,006 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-21 09:23:59,215 - INFO - rndforest/train_forest - Shuffle: 1 of 10 | AUC: 0.737
+2019-04-21 09:24:02,668 - INFO - rndforest/train_forest - Shuffle: 2 of 10 | AUC: 0.742
+2019-04-21 09:24:06,101 - INFO - rndforest/train_forest - Shuffle: 3 of 10 | AUC: 0.737
+2019-04-21 09:24:09,643 - INFO - rndforest/train_forest - Shuffle: 4 of 10 | AUC: 0.731
+2019-04-21 09:24:12,988 - INFO - rndforest/train_forest - Shuffle: 5 of 10 | AUC: 0.746
+2019-04-21 09:24:16,323 - INFO - rndforest/train_forest - Shuffle: 6 of 10 | AUC: 0.742
+2019-04-21 09:24:19,662 - INFO - rndforest/train_forest - Shuffle: 7 of 10 | AUC: 0.749
+2019-04-21 09:24:23,093 - INFO - rndforest/train_forest - Shuffle: 8 of 10 | AUC: 0.743
+2019-04-21 09:24:26,538 - INFO - rndforest/train_forest - Shuffle: 9 of 10 | AUC: 0.736
+2019-04-21 09:24:29,881 - INFO - rndforest/train_forest - Shuffle: 10 of 10 | AUC: 0.734
+2019-04-21 09:24:29,884 - INFO - rndforest/train_forest - Finished | Mean AUC: 0.74 | Stdev: 0.0056
+2019-04-21 09:31:14,463 - INFO - api/save_publicdataset - Loandataset already exists for today
+2019-04-21 09:31:14,464 - DEBUG - api/get_investments - Requested for user: Niklas
+2019-04-21 09:31:30,922 - DEBUG - api/get_investments - Status Code: 200 - Success
+2019-04-21 09:31:30,927 - INFO - api/save_investments - Received Page 1 of 1
+2019-04-21 09:31:33,925 - INFO - api/save_investments - Investments saved
+2019-04-21 09:31:36,504 - INFO - dataprep/load_data - Loaded LoanData: 85.7k credits
+2019-04-21 09:31:36,812 - INFO - dataprep/clean_data - 10.96 % time filtered
+2019-04-21 09:31:37,017 - INFO - dataprep/clean_data - 3.19 % NaN filtered
+2019-04-21 09:31:37,209 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-21 09:31:37,216 - INFO - dataprep/clean_data - 45.11 % of credits defaulted
+2019-04-21 09:31:37,241 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-21 09:32:50,519 - INFO - rndforest/train_forest - Shuffle: 1 of 10 | AUC: 0.738
+2019-04-21 09:32:52,915 - INFO - rndforest/train_forest - Shuffle: 2 of 10 | AUC: 0.732
+2019-04-21 09:32:55,311 - INFO - rndforest/train_forest - Shuffle: 3 of 10 | AUC: 0.749
+2019-04-21 09:32:57,712 - INFO - rndforest/train_forest - Shuffle: 4 of 10 | AUC: 0.744
+2019-04-21 09:33:00,117 - INFO - rndforest/train_forest - Shuffle: 5 of 10 | AUC: 0.753
+2019-04-21 09:33:02,530 - INFO - rndforest/train_forest - Shuffle: 6 of 10 | AUC: 0.741
+2019-04-21 09:33:04,937 - INFO - rndforest/train_forest - Shuffle: 7 of 10 | AUC: 0.752
+2019-04-21 09:33:07,340 - INFO - rndforest/train_forest - Shuffle: 8 of 10 | AUC: 0.741
+2019-04-21 09:33:09,742 - INFO - rndforest/train_forest - Shuffle: 9 of 10 | AUC: 0.745
+2019-04-21 09:33:12,135 - INFO - rndforest/train_forest - Shuffle: 10 of 10 | AUC: 0.746
+2019-04-21 09:33:12,138 - INFO - rndforest/train_forest - Finished | Mean AUC: 0.74 | Stdev: 0.0063
+2019-04-21 09:38:15,729 - INFO - api/save_publicdataset - Loandataset already exists for today
+2019-04-21 09:38:15,730 - DEBUG - api/get_investments - Requested for user: Niklas
+2019-04-21 09:38:26,344 - DEBUG - api/get_investments - Status Code: 200 - Success
+2019-04-21 09:38:26,349 - INFO - api/save_investments - Received Page 1 of 1
+2019-04-21 09:38:29,238 - INFO - api/save_investments - Investments saved
+2019-04-21 09:38:31,768 - INFO - dataprep/load_data - Loaded LoanData: 85.7k credits
+2019-04-21 09:38:32,055 - INFO - dataprep/clean_data - 10.96 % time filtered
+2019-04-21 09:38:32,220 - INFO - dataprep/clean_data - 3.19 % NaN filtered
+2019-04-21 09:38:32,370 - DEBUG - dataprep/clean_data - Number of remaining NaN: 0
+2019-04-21 09:38:32,377 - INFO - dataprep/clean_data - 45.11 % of credits defaulted
+2019-04-21 09:38:32,394 - INFO - dataprep/clean_data - Finished Data Cleansing
+2019-04-21 09:38:32,538 - INFO - rndforest/train_forest - Train Random Forest with:
+2019-04-21 09:38:32,539 - INFO - rndforest/train_forest - No of Trees: 122
+2019-04-21 09:38:32,540 - INFO - rndforest/train_forest - Max Depth: 30
+2019-04-21 09:38:32,541 - INFO - rndforest/train_forest - Min Leaf Size: 2500
+2019-04-21 09:38:32,541 - INFO - rndforest/train_forest - Min Sample Split: 1000
+2019-04-21 09:38:32,542 - INFO - rndforest/train_forest - Crit: gini
+2019-04-21 09:38:34,950 - INFO - rndforest/train_forest - Shuffle: 1 of 10 | AUC: 0.740
+2019-04-21 09:38:37,354 - INFO - rndforest/train_forest - Shuffle: 2 of 10 | AUC: 0.742
+2019-04-21 09:38:39,755 - INFO - rndforest/train_forest - Shuffle: 3 of 10 | AUC: 0.741
+2019-04-21 09:38:42,164 - INFO - rndforest/train_forest - Shuffle: 4 of 10 | AUC: 0.739
+2019-04-21 09:38:44,563 - INFO - rndforest/train_forest - Shuffle: 5 of 10 | AUC: 0.742
+2019-04-21 09:38:46,966 - INFO - rndforest/train_forest - Shuffle: 6 of 10 | AUC: 0.726
+2019-04-21 09:38:49,375 - INFO - rndforest/train_forest - Shuffle: 7 of 10 | AUC: 0.735
+2019-04-21 09:38:51,779 - INFO - rndforest/train_forest - Shuffle: 8 of 10 | AUC: 0.742
+2019-04-21 09:38:54,169 - INFO - rndforest/train_forest - Shuffle: 9 of 10 | AUC: 0.751
+2019-04-21 09:38:56,572 - INFO - rndforest/train_forest - Shuffle: 10 of 10 | AUC: 0.741
+2019-04-21 09:38:56,572 - INFO - rndforest/train_forest - Finished | Mean AUC: 0.74 | Stdev: 0.0062
+2019-04-21 11:04:48,480 - INFO - <ipython-input-100-83d79a56999f>/<module> - 2 bins were removed
+2019-04-21 11:04:48,543 - INFO - <ipython-input-100-83d79a56999f>/<module> - Fit succeded | R2: 0.95
+2019-04-21 11:06:09,701 - INFO - <ipython-input-101-50e007061821>/<module> - 1 of 12 bins were removed
+2019-04-21 11:06:09,761 - INFO - <ipython-input-101-50e007061821>/<module> - Fit succeded | R2: 0.95
+2019-04-21 11:07:08,133 - INFO - <ipython-input-102-92e14b92c389>/<module> - 6 of 24 bins were removed
+2019-04-21 11:07:08,192 - INFO - <ipython-input-102-92e14b92c389>/<module> - Fit succeded | R2: 0.94
+2019-04-21 11:07:33,835 - INFO - <ipython-input-103-8ced161e43f5>/<module> - 2 of 7 bins were removed
+2019-04-21 11:07:33,837 - WARNING - <ipython-input-103-8ced161e43f5>/<module> - Number of bins removed above 25%
+2019-04-21 11:07:33,895 - INFO - <ipython-input-103-8ced161e43f5>/<module> - Fit succeded | R2: 0.98
+2019-04-21 11:07:54,035 - INFO - <ipython-input-104-02d50a870e96>/<module> - 2 of 7 bins were removed
+2019-04-21 11:07:54,036 - WARNING - <ipython-input-104-02d50a870e96>/<module> - Number of bins removed above 25%
+2019-04-21 11:07:54,094 - INFO - <ipython-input-104-02d50a870e96>/<module> - Fit succeded | R2: 0.985
+2019-04-21 11:08:17,711 - INFO - <ipython-input-105-f1728c016898>/<module> - 2 of 7 bins were removed
+2019-04-21 11:08:17,712 - WARNING - <ipython-input-105-f1728c016898>/<module> - Number of bins removed above 25%
+2019-04-21 11:08:17,769 - INFO - <ipython-input-105-f1728c016898>/<module> - Fit succeded | R2: 0.985
+2019-04-21 11:08:35,020 - INFO - <ipython-input-106-bb15ff31394b>/<module> - 1 of 15 bins were removed
+2019-04-21 11:08:35,078 - INFO - <ipython-input-106-bb15ff31394b>/<module> - Fit succeded | R2: 0.933
+2019-04-21 11:08:51,037 - INFO - <ipython-input-107-63350ff428a9>/<module> - 2 of 15 bins were removed
+2019-04-21 11:08:51,094 - INFO - <ipython-input-107-63350ff428a9>/<module> - Fit succeded | R2: 0.951
