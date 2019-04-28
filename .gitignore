@@ -1,8 +1,18 @@
 # log files
-*.logs
+
+*.log
+
+
 
 # pictures
-*.png
+*
+.png
+
+
 
 # data folder
-data/*
+
+data/
+
+# pycache
+__pycache__/
