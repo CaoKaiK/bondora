@@ -13,6 +13,6 @@ def pick_items(userData, userId):
     # filter for nextPayment == 1
     userData = userData[userData.NextPaymentNr==1]
     # filter for low adjusted interest
-    userData = userData[userData.adjInt < 15]
+    userData = userData[userData.adjInt < 17.5]
     
     return userData

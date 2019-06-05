@@ -47,7 +47,7 @@ def adjust_gain(currentSales):
     now = dt.datetime.now()
     if  not(currentSales.empty):
         # define threshold for changing gain
-        timeThresh = dt.timedelta(hours=12)
+        timeThresh = dt.timedelta(hours=999)
 
         currentSales['NewGain'] = currentSales['Gain']
 
@@ -92,7 +92,7 @@ def add_items(adjustedSales, items):
     '''add items to adjustesSales list and init date and gain'''
     adjustedSales = adjustedSales.copy()
     items['Date'] = dt.datetime.now()
-    items['Gain'] = 3
+    items['Gain'] = 0
 
     # append adjustedSales with new items
     addedSales = adjustedSales.append(items, sort=True)

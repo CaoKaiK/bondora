@@ -40,7 +40,7 @@ from functions.dataprep import load_data
 TIMEOUT = 30
 URLBASE = 'https://api.bondora.com/api/v1/'
 PAGESIZE = 10_000
-WAIT = 2
+WAIT = 3610
 
 logger = logging.getLogger('main')
 
@@ -62,8 +62,9 @@ def get_balance(userId):
     url = URLBASE + reqName
 
     logger.debug(f"Requested for user: {user['name']}")
-    time.sleep(WAIT)
+    
     r = requests.get(url, headers=auth, timeout=TIMEOUT)
+    time.sleep(WAIT)
 
     if r.status_code == requests.codes.ok:
         response = json.loads(r.text)
@@ -91,8 +92,9 @@ def get_secondarymarket(userId, pageNr=1, showItems=True):
 
     logger.debug(f"Requested for user: {user['name']}")
     logger.debug(f'Show Items: {showItems}')
-    time.sleep(WAIT)
+    
     r = requests.get(url, headers=auth, params=parameters, timeout=TIMEOUT)
+    time.sleep(WAIT)
 
     if r.status_code == requests.codes.ok:
         response = json.loads(r.text)
@@ -125,8 +127,9 @@ def post_sellitems(userId, items):
     url = URLBASE + reqName
 
     logger.debug(f"Requested for user: {user['name']}")
-    time.sleep(WAIT)
+    
     r = requests.post(url, headers=auth, json=parameters, timeout=TIMEOUT)
+    time.sleep(WAIT)
 
     # iterate over batch and remove single items if item can not be sold
     i = 0
@@ -141,8 +144,9 @@ def post_sellitems(userId, items):
                   'CancelItemOnPaymentReceived': True,
                   'CancelItemOnReschedule': True}
         
-        time.sleep(WAIT)
+        
         r = requests.post(url, headers=auth, json=parameters, timeout=TIMEOUT)
+        time.sleep(WAIT)
         i = i +1
 
     if i > 0:
@@ -174,8 +178,9 @@ def post_cancelitem(userId, items):
     url = URLBASE + reqName
 
     logger.debug(f"Requested for user: {user['name']}")
-    time.sleep(WAIT)
+    
     r = requests.post(url, headers=auth, json=parameters, timeout=TIMEOUT)
+    time.sleep(WAIT)
 
 
     if r.status_code == 202: # see api documentation
@@ -214,8 +219,9 @@ def get_investments(userId, pageNr=1, salesStatus=3):
     url = URLBASE + reqName
 
     logger.debug(f"Requested for user: {user['name']}")
-    time.sleep(WAIT)
+    
     r = requests.get(url, headers=auth, params=parameters, timeout=TIMEOUT)
+    time.sleep(WAIT)
 
     if r.status_code == requests.codes.ok:
         response = json.loads(r.text)
@@ -251,7 +257,7 @@ def save_investments(userId=984):
     today = today.strftime('%Y_%m_%d')
     filename = f'{today}.csv'
     filepath = os.path.join(dirName, filename)
-    
+
     # check if there is already a dataset for today
 #    if os.path.isfile(filepath):
 #        logger.info('Loandataset already exists for today')
@@ -303,8 +309,9 @@ def get_publicdataset(userId, pageNr=1):
     url = URLBASE + reqName
 
     logger.debug(f"Requested for user: {user['name']}")
-    time.sleep(WAIT)
+    
     r = requests.get(url, headers=auth, params=parameters, timeout=TIMEOUT)
+    time.sleep(WAIT)
 
     if r.status_code == requests.codes.ok:
         response = json.loads(r.text)

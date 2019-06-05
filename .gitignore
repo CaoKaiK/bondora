@@ -1,6 +1,9 @@
 # ignore log files
 *.log
 
+bond-env/
+.vscode/
+
 # ignore python cache
 __pycache__/
 

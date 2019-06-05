@@ -203,3 +203,13 @@ def clean_data(dataRaw, mode='train'):
     logger.info('Finished Data Cleansing')
     
     return dataClean
+
+
+def main():
+    '''just a docstring'''
+    print('Test dataprep.py')
+    load_data()
+    
+
+if __name__ == '__main__':
+    main()
