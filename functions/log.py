@@ -32,8 +32,8 @@ def custom_logger(name):
         logger.addHandler(stream_handler)
         
         now_string = now.strftime('%Y-%m-%d %H:%M:%S')
-        logger.debug(f'Logging started on: {now_string}')
-        logger.debug('################################')
+        logger.info(f'Logging started on: {now_string}')
+        logger.info('################################')
     return logger
 
 

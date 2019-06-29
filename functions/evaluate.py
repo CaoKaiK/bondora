@@ -1,18 +1,28 @@
 # -*- coding: utf-8 -*-
-from data import credentials
+import datetime as dt
 import pandas as pd
 
+from functions.api import update_credentials
 
 
-def pick_items(userData, userId):
+
+def pick_items(user_data, user_id):
     # load user
-    user = credentials.get_auth(userId)
-    # filter for time
-    userData['BiddingStartedOn'] = pd.to_datetime(userData.BiddingStartedOn)
-    userData = userData[userData.BiddingStartedOn > user['sell_start']]
-    # filter for nextPayment == 1
-    userData = userData[userData.NextPaymentNr==1]
-    # filter for low adjusted interest
-    userData = userData[userData.adjInt < 17.5]
+    credentials = update_credentials(mode='load')
+    user = credentials[user_id]
     
-    return userData
+    # filter for time
+    user_data['BiddingStartedOn'] = pd.to_datetime(user_data.BiddingStartedOn)
+    sell_start = dt.datetime.strptime(user['sell_start'], user['time_fmt'])
+    user_data = user_data[user_data.BiddingStartedOn > sell_start]
+    
+    # filter for items on secondary market
+    user_data = user_data[user_data['ListedInSecondMarketOn'].isnull()]
+    
+    # filter for nextPayment == 1
+    user_data = user_data[user_data.NextPaymentNr==1]
+    
+    # filter for low adjusted interest
+    user_data = user_data[user_data.adjInt < 17.5]
+    
+    return user_data

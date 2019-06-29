@@ -22,7 +22,7 @@ logger = logging.getLogger('main')
 def check_sales(userId):
     '''Check currently active sales'''
     # get current items on sale
-    currentSales, maxPage = get_secondarymarket(userId)
+    currentSales, _ = get_secondarymarket(userId)
     if not(currentSales.empty):
         # filter for relevant info
         currentSales = currentSales.filter(['ListedOnDate',
@@ -47,7 +47,7 @@ def adjust_gain(currentSales):
     now = dt.datetime.now()
     if  not(currentSales.empty):
         # define threshold for changing gain
-        timeThresh = dt.timedelta(hours=999)
+        timeThresh = dt.timedelta(hours=8)
 
         currentSales['NewGain'] = currentSales['Gain']
 
@@ -88,32 +88,41 @@ def cancel_items(userId, adjustedSales, now):
 
 
 ##############################################################################
-def add_items(adjustedSales, items):
+def add_items(adjusted_sales, items):
     '''add items to adjustesSales list and init date and gain'''
-    adjustedSales = adjustedSales.copy()
-    items['Date'] = dt.datetime.now()
-    items['Gain'] = 0
+    # add date and standard gain to new items
+    if not(items.empty):
+        items['Date'] = dt.datetime.now()
+        items['Gain'] = 3
+        
+        if not(adjusted_sales.empty):
+            items = items[~items['LoanPartId'].isin(adjusted_sales['LoanPartId'])]
 
     # append adjustedSales with new items
-    addedSales = adjustedSales.append(items, sort=True)
+    added_sales = adjusted_sales.append(items, sort=True)
     
-    addedSales.Gain = addedSales.Gain.astype(int)
-    return addedSales
+    added_sales.Gain = added_sales.Gain.astype(int)
+    return added_sales
 
 
 ##############################################################################
-def sell_items(userId, addedSales):
+def sell_items(user_id, added_sales):
     ''' make request and save latest sales'''
-    if not(addedSales.empty):
-        reqPosts = ceil(len(addedSales)/100)
-        addedSales = addedSales[['LoanPartId', 'Gain']]
-        for noPost in range(1,reqPosts+1):
-            items = addedSales[(noPost-1)*100:(noPost)*100]
+    prev = len(added_sales)
+    added_sales = added_sales.drop_duplicates(subset='LoanPartId')
+    after = len(added_sales)
+    if prev-after > 0:
+        logger.warning(f'Removed {prev-after} duplicates')
+    if not(added_sales.empty):
+        req_posts = ceil(after/100)
+        added_sales = added_sales[['LoanPartId', 'Gain']]
+        for no_post in range(1,req_posts+1):
+            items = added_sales[(no_post-1)*100:(no_post)*100]
             items = items.rename(index=str, columns={'Gain': 'DesiredDiscountRate'})
     
             # format to required format for api
             items = items.to_dict(orient='records')
-            post_sellitems(userId, items)
+            post_sellitems(user_id, items)
     else:
         logger.info('No items to sell')
 
