@@ -47,7 +47,7 @@ def adjust_gain(currentSales):
     now = dt.datetime.now()
     if  not(currentSales.empty):
         # define threshold for changing gain
-        timeThresh = dt.timedelta(hours=8)
+        timeThresh = dt.timedelta(hours=4)
 
         currentSales['NewGain'] = currentSales['Gain']
 
@@ -93,7 +93,7 @@ def add_items(adjusted_sales, items):
     # add date and standard gain to new items
     if not(items.empty):
         items['Date'] = dt.datetime.now()
-        items['Gain'] = 3
+        items['Gain'] = 4
         
         if not(adjusted_sales.empty):
             items = items[~items['LoanPartId'].isin(adjusted_sales['LoanPartId'])]
