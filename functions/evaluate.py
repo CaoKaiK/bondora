@@ -5,7 +5,6 @@ import pandas as pd
 from functions.api import update_credentials
 
 
-
 def pick_items(user_data, user_id):
     # load user
     credentials = update_credentials(mode='load')
@@ -23,6 +22,6 @@ def pick_items(user_data, user_id):
     user_data = user_data[user_data.NextPaymentNr==1]
     
     # filter for low adjusted interest
-    user_data = user_data[user_data.adjInt < 17.5]
+    user_data = user_data[user_data.adjInt<17.5]
     
     return user_data

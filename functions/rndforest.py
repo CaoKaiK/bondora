@@ -90,7 +90,7 @@ def train_forest(dataClean, Search='off'):
     
     avg_auc = np.mean(aucs)
     stdev_auc = stdev(aucs)
-    logger.info(f'Finished | Mean AUC: {avg_auc:.3f} | Stdev: {stdev_auc:.4f}')
+    logger.debug(f'Finished | Mean AUC: {avg_auc:.3f} | Stdev: {stdev_auc:.4f}')
     
     return clf, avg_auc
 
@@ -110,7 +110,7 @@ def evaluate_default_prob(clf, dataClean):
     result = result.loc[binCount['perc']>min_size,:]
     dif = len(binCount) - len(result)
     if dif > 0:
-        logger.info(f'{dif} of {len(binCount)} bins were removed')
+        logger.debug(f'{dif} of {len(binCount)} bins were removed')
     if dif/len(binCount) > 0.25:
         logger.warning(f'Number of bins removed above 25%')
     
@@ -118,7 +118,7 @@ def evaluate_default_prob(clf, dataClean):
     
     result['Fitted'] = np.polyval(fit, result['Prob'])
     r2 = r2_score(result['True'].values, result['Fitted'].values)
-    logger.info(f'Fit succeded | R2: {r2:.3f}')
+    logger.debug(f'Fit succeded | R2: {r2:.3f}')
     return fit
 
 def apply_forest(fit, clf, userData):
