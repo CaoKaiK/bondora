@@ -80,7 +80,7 @@ def train_forest(dataClean, Search='off'):
         fpr, tpr, thresholds = roc_curve(y[test], probas_[:, 1])
 
         roc_auc = auc(fpr, tpr)
-        logger.info(f'Shuffle: {i+1} of {n} | AUC: {roc_auc:.3f}')
+        logger.debug(f'Shuffle: {i+1} of {n} | AUC: {roc_auc:.3f}')
         aucs.append(roc_auc)
 
         i += 1
@@ -90,7 +90,7 @@ def train_forest(dataClean, Search='off'):
     
     avg_auc = np.mean(aucs)
     stdev_auc = stdev(aucs)
-    logger.debug(f'Finished | Mean AUC: {avg_auc:.3f} | Stdev: {stdev_auc:.4f}')
+    logger.info(f'Finished | Mean AUC: {avg_auc:.3f} | Stdev: {stdev_auc:.4f}')
     
     return clf, avg_auc
 
