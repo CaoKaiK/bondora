@@ -189,7 +189,7 @@ def post_sellitems(user_id, items):
                                          wait_time=1)
         i += 1
     if i > 0:
-        logger.info(f'{i} credits could not be sold')
+        logger.debug(f'{i} credits could not be sold')
     
     if r.status_code == 202:
         logger.info(f'Sold {len(items)}/{len(items)+i} credits')
