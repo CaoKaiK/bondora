@@ -40,7 +40,7 @@ def train_forest(dataClean, Search='off'):
                                        param_distributions=random_grid,
                                        n_iter=150, cv=3, verbose=5,
                                        random_state=42,
-                                       n_jobs=6)
+                                       n_jobs=1)
         clf_random.fit(X,y)
 
     # define randomforest regressor
@@ -51,7 +51,7 @@ def train_forest(dataClean, Search='off'):
                                  min_samples_leaf=2500,
                                  min_samples_split=1000,
                                  verbose=0,
-                                 n_jobs=6, random_state=42)
+                                 n_jobs=1, random_state=42)
     
     if 'clf_random' in locals():
         gridParams = clf_random.best_params_

@@ -17,7 +17,7 @@ import requests
 TIMEOUT = 30
 URLBASE = 'https://api.bondora.com/api/v1/'
 PAGESIZE = 10_000
-WAIT = 3700
+WAIT = 3660
 
 # logging
 logger = logging.getLogger('main')
@@ -123,7 +123,7 @@ def get_balance(user_id):
     r, credentials = bondora_request(user_id=user_id,
                                      req_type='GET',
                                      req_name='account/balance',
-                                     wait_time=10)
+                                     wait_time=360)
     
     # extract payload from json to dict
     payload = json.loads(r.text)['Payload']
@@ -145,7 +145,7 @@ def get_secondarymarket(user_id):
                                               req_type='GET',
                                               req_name='secondarymarket',
                                               params=parameters,
-                                              wait_time=3600)
+                                              wait_time=750)
     # extract payload from json to dict
     payload = json.loads(r.text)['Payload']    
     payload = pd.DataFrame.from_dict(payload)
@@ -238,7 +238,7 @@ def get_investments(user_id, page_number=1):
     r, credentials = bondora_request(user_id=user_id,
                                               req_type='GET',
                                               req_name='account/investments',
-                                              wait_time=3600)
+                                              wait_time=760)
     # extract payload from json to dict
     payload = json.loads(r.text)['Payload']
     payload = pd.DataFrame.from_dict(payload)

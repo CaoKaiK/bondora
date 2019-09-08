@@ -1,10 +1,12 @@
 import logging
 import functions as fcs
+import datetime as dt
 
 from apscheduler.schedulers.blocking import BlockingScheduler
 
+scheduler = BlockingScheduler()
 
-
+@scheduler.scheduled_job('interval', hours=1, id='run_main', next_run_time=dt.datetime.now())
 def main():
     # init logging
     fcs.custom_logger('main')
@@ -53,5 +55,4 @@ def main():
     logger.info('Finished')
     logging.shutdown()
 
-sched = BlockingScheduler()
-sched.add_job(func=main ,trigger='interval', hours=4)
+scheduler.start()
