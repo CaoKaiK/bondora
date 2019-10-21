@@ -1,5 +1,7 @@
 # Bondora - Apply Machine Learning to P2P
 
+*This program was written as a hobby project to learn some python and apply machine learning to the classification of credits. This was also the first project using an API to exchange data/requests. Feel free to fork the project and modify it.*
+
 The intention of the program is to connect to the P2P plattform www.bondora.com and filter the investment portfolio of your credits by the porbabilty of default and sell those credits that do not meet the criteria.
 
 
