@@ -7,8 +7,6 @@ bond-env/
 # ignore python cache
 __pycache__/
 
-# ignore any tmp picture
-*.png
 
 # ignore data folder
 data/
